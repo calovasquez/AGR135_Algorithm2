@@ -17,5 +17,9 @@ extern "C" {
 #ifdef __cplusplus
 }
 #endif
-
+// Headers
+void initialize(void); // Projection function
+void draw(void); // Main function
+void algorithm2(float,float,float,float); // Algorithm 2 function
+void carnet(); // Carnet function
 #endif /* ALGORITHM2_H */
