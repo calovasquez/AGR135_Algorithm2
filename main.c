@@ -5,6 +5,10 @@
  * Created on March 25, 2024, 11:20 PM
  */
 
+/*
+ * Added in Linker: -lGL -lglut -lGLU
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 
