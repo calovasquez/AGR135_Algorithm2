@@ -18,7 +18,8 @@
 #include "./algorithm2.h"
 
 /*
- * 
+ * This algorithm consists of drawing my carnet (VG21009)
+ * using the differential digital analysis algorithm
  */
 
 int main(int argc, char** argv) {
