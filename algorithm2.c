@@ -19,3 +19,21 @@ void draw(void){
         carnet();
     glFlush();
 }
+
+// Function to draw my carnet
+void algorithm2(float x1, float y1, float x2, float y2) {
+    float dx = (x2 - x1);
+    float dy = (y2 - y1);
+    float steps, xIncrease, yIncrease, x = x1, y = y1;
+    steps = abs(dx) > abs(dy) ? abs(dx) : abs(dy);
+    xIncrease = (dx / steps);
+    yIncrease = (dy / steps);
+    glBegin(GL_POINTS);
+    for (float step = 0; step < steps; step++) {
+        glVertex2f(x,y);
+        x+=xIncrease;
+        y+=yIncrease;
+    }
+    glEnd();
+}
+
